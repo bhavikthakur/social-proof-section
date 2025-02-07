@@ -1,0 +1,151 @@
+/* ----------MEDIA QUERIES-------------------------- */
+
+/* -----MEDIUM SCREENS----------------- */
+
+
+@media (min-width:800px) and (max-width:1000px) {
+    .page-wrapper {
+        max-width: 80%;
+
+    }
+
+    .hero-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .hero-text-container {
+        flex: 1;
+        align-items: flex-start;
+
+
+    }
+
+    .hero-title,
+    .hero-body {
+        text-align: left;
+        max-width: 90%;
+    }
+
+
+    .hero-star-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+
+
+}
+
+
+/* ------------------LARGE SCREENS------------------------ */
+
+@media (min-width:1000px) {
+
+    body {
+        background: url(../images/bg-pattern-top-desktop.svg) top left, url(../images/bg-pattern-bottom-desktop.svg) bottom right;
+        background-repeat: no-repeat;
+
+    }
+
+    .page-wrapper {
+        max-width: 80%;
+    }
+
+    .hero-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .hero-text-container {
+        flex: 1;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .hero-title,
+    .hero-body {
+        text-align: left;
+        max-width: 70%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+
+    .hero-body {
+        font-size: 1.3rem;
+        line-height: 1.2;
+        margin-bottom: 1em;
+    }
+
+    .hero-star-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .review-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .review-card-section {
+        flex-direction: row;
+        padding: 0.5em 2em;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .anonymous-review {
+        align-self: flex-start;
+    }
+
+    .report-guru-review {
+        align-self: center;
+    }
+
+    .besttech-review {
+        align-self: flex-end;
+    }
+
+    .review-card-section {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+
+
+    }
+
+    .review-wrapper {
+        padding: 1em;
+        gap: 1.5rem;
+    }
+
+    .star-icon {
+        margin-left: 0.2em;
+    }
+
+
+    .irene-review {
+        margin-top: 1em
+    }
+
+    .anne-review {
+        margin-top: 2em;
+    }
+}

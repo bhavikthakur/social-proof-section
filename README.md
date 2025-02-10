@@ -34,7 +34,7 @@ A clean and responsive **social proof section** that showcases user testimonials
 ## 🔧 Setup & Usage  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/social-links-profile.git    
+   git clone https://github.com/bhavikthakur/social-proof-section.git    
 2. Open index.html in your browser.
 
 2. Open `index.html` in a browser.  
